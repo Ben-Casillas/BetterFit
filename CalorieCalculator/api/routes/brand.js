@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-//import { mapToDTO } from "../DTOs/brand.ts";
-//const mapToDTO = require("../DTOs/brand.ts")
+const { mapToDTO } = require("../DTOs/brand");
+
 
 const allURL = "https://trackapi.nutritionix.com/v2/search/instant?query=";
 const brandURL = "https://trackapi.nutritionix.com/v2/search/item?nix_item_id=";
