@@ -3,7 +3,6 @@ const router = express.Router();
 const axios = require('axios');
 const { mapToDTO } = require("../DTOs/brand");
 
-
 const allURL = "https://trackapi.nutritionix.com/v2/search/instant?query=";
 const brandURL = "https://trackapi.nutritionix.com/v2/search/item?nix_item_id=";
 
@@ -31,6 +30,7 @@ router.get('/:query', async (req, res) => {
 });
 
 // Retrieve one branded item with the correct values according to provided amount
+//sending the ID will be handled via the front end :)
 router.get('/:nix_item_id/:amount', async (req, res) => {
     const nix_item_id = req.params.nix_item_id;
     const amount = parseFloat(req.params.amount);
@@ -40,6 +40,8 @@ router.get('/:nix_item_id/:amount', async (req, res) => {
             const dto = mapToDTO(response.data.foods[0]); // Adjust based on actual data structure
             console.log(dto);
             res.status(200).json(dto);
+            //console.log(response.data)
+            //res.status(200).json(response.data)
         }
     } catch (error) {
         console.error(error);

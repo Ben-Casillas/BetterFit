@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express();
-const commonRouters = require('./api/routes/common');
+//const commonRouters = require('./api/routes/common');
 const brandRouters = require("./api/routes/brand")
 
 
@@ -20,7 +20,7 @@ app.use((req, res, next) =>{ //every request funnels through this middleware
         next();
 });
 
-app.use("/common", commonRouters); //anything starting with /common will be sent to the commonRouters folder
+//app.use("/common", commonRouters); //anything starting with /common will be sent to the commonRouters folder
 app.use("/brand", brandRouters);    
 
 app.use("/", (req, res)=> {
