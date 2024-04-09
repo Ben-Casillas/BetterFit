@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const axios = require('axios');
-const { mapToDTO } = require("../DTOs/brand");
+const { mapToDTO, mapListToDTO } = require("../DTOs/brand");
 
 const allURL = "https://trackapi.nutritionix.com/v2/search/instant?query=";
 const brandURL = "https://trackapi.nutritionix.com/v2/search/item?nix_item_id=";
@@ -20,8 +20,14 @@ router.get('/:query', async (req, res) => {
     try {
         const response = await axios.get(`${allURL}${query}`, headers);
         if (response.status === 200) {
-            console.log(response.data["branded"]);
-            res.status(200).json(response.data["branded"]);
+            brandedItems = response.data["branded"];
+            returnedList = [];
+            brandedItems.forEach(item => {
+                returnedItem = mapListToDTO(item)
+                returnedList.push(returnedItem)
+            });
+            console.log(returnedList)
+            res.status(200).json(returnedList);
         }
     } catch (error) {
         console.error(error);
@@ -37,7 +43,7 @@ router.get('/:nix_item_id/:amount', async (req, res) => {
     try {
         const response = await axios.get(`${brandURL}${nix_item_id}`, headers);
         if (response.status === 200) {
-            const dto = mapToDTO(response.data.foods[0]); // Adjust based on actual data structure
+            const dto = mapToDTO(response.data.foods[0], amount); // Adjust based on actual data structure
             console.log(dto);
             res.status(200).json(dto);
             //console.log(response.data)
