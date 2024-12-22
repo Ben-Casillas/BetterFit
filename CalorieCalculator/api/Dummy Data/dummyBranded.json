@@ -1,0 +1,87 @@
+{
+	"foods": [
+		{
+			"food_name": "Cheeseburger Pita (Plain), Add Dairi-O Way To Cheeseburger Pita",
+			"brand_name": "Dairi-O",
+			"serving_qty": 1,
+			"serving_unit": "serving",
+			"serving_weight_grams": null,
+			"nf_metric_qty": null,
+			"nf_metric_uom": null,
+			"nf_calories": 100,
+			"nf_total_fat": 8,
+			"nf_saturated_fat": 1,
+			"nf_cholesterol": 5,
+			"nf_sodium": 60,
+			"nf_total_carbohydrate": 7,
+			"nf_dietary_fiber": 1,
+			"nf_sugars": 3,
+			"nf_protein": 1,
+			"nf_potassium": null,
+			"nf_p": null,
+			"full_nutrients": [
+				{
+					"attr_id": 203,
+					"value": 1
+				},
+				{
+					"attr_id": 204,
+					"value": 8
+				},
+				{
+					"attr_id": 205,
+					"value": 7
+				},
+				{
+					"attr_id": 208,
+					"value": 100
+				},
+				{
+					"attr_id": 269,
+					"value": 3
+				},
+				{
+					"attr_id": 291,
+					"value": 1
+				},
+				{
+					"attr_id": 307,
+					"value": 60
+				},
+				{
+					"attr_id": 601,
+					"value": 5
+				},
+				{
+					"attr_id": 605,
+					"value": 0
+				},
+				{
+					"attr_id": 606,
+					"value": 1
+				}
+			],
+			"nix_brand_name": "Dairi-O",
+			"nix_brand_id": "611bcafc4f06acd93438fc3f",
+			"nix_item_name": "Cheeseburger Pita (Plain), Add Dairi-O Way To Cheeseburger Pita",
+			"nix_item_id": "bd9d6817c6d8602b785608a1",
+			"metadata": {},
+			"source": 8,
+			"ndb_no": null,
+			"alt_measures": null,
+			"lat": null,
+			"lng": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"note": null,
+			"class_code": null,
+			"brick_code": null,
+			"tag_id": null,
+			"updated_at": "2024-06-26T22:26:10+00:00",
+			"nf_ingredient_statement": null
+		}
+	]
+}

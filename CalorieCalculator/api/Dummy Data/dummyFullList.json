@@ -1,0 +1,618 @@
+{
+	"common": [
+		{
+			"food_name": "cheeseburger",
+			"tag_name": "cheeseburger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/445_thumb.jpg"
+			},
+			"serving_unit": "item",
+			"tag_id": "445",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburgers",
+			"tag_name": "cheeseburger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/445_thumb.jpg"
+			},
+			"serving_unit": "item",
+			"tag_id": "445",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger mac",
+			"tag_name": "cheeseburger macaroni",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/8385_thumb.jpg"
+			},
+			"serving_unit": "cup",
+			"tag_id": "8385",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "bacon cheeseburger",
+			"tag_name": "bacon cheeseburger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/1806_thumb.jpg"
+			},
+			"serving_unit": "item",
+			"tag_id": "1806",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "chili cheeseburger",
+			"tag_name": "chili burger",
+			"serving_unit": "burger",
+			"tag_id": "5856",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger steak",
+			"tag_name": "cheeseburger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/445_thumb.jpg"
+			},
+			"serving_unit": "item",
+			"tag_id": "445",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "double cheeseburger",
+			"tag_name": "double cheeseburger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/3428_thumb.jpg"
+			},
+			"serving_unit": "item",
+			"tag_id": "3428",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger slider",
+			"tag_name": "cheeseburger slider",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/3645_thumb.jpg"
+			},
+			"serving_unit": "slider",
+			"tag_id": "3645",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "triple cheeseburger",
+			"tag_name": "triple cheeseburger",
+			"serving_unit": "item",
+			"tag_id": "2985",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger no bun",
+			"tag_name": "cheeseburger without bun",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/8568_thumb.jpg"
+			},
+			"serving_unit": "patty with cheese",
+			"tag_id": "8568",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "turkey cheeseburger",
+			"tag_name": "turkey burger",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/1416_thumb.jpg"
+			},
+			"serving_unit": "burger on bun",
+			"tag_id": "1416",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "bunless cheeseburger",
+			"tag_name": "cheeseburger without bun",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/8568_thumb.jpg"
+			},
+			"serving_unit": "patty with cheese",
+			"tag_id": "8568",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger macaroni",
+			"tag_name": "cheeseburger macaroni",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/8385_thumb.jpg"
+			},
+			"serving_unit": "cup",
+			"tag_id": "8385",
+			"serving_qty": 1,
+			"common_type": null,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "mushroom cheeseburger",
+			"tag_name": "cheeseburger with mushrooms",
+			"serving_unit": "sandwich",
+			"tag_id": "8640",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "jalapeno cheeseburger",
+			"tag_name": "jalapeno cheeseburger",
+			"serving_unit": "burger",
+			"tag_id": "13199",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger casserole",
+			"tag_name": "cheeseburger casserole",
+			"serving_unit": "cup",
+			"tag_id": "6206",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger and fries",
+			"tag_name": "burger and fries",
+			"serving_unit": "meal",
+			"tag_id": "13312",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "grilled cheese cheeseburger",
+			"tag_name": "grilled cheese burger",
+			"serving_unit": "burger",
+			"tag_id": "5901",
+			"serving_qty": 1,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger macaroni dry mix",
+			"tag_name": "cheeseburger macaroni mix, unprepared",
+			"serving_unit": "cup",
+			"tag_id": "5225",
+			"serving_qty": 0.25,
+			"common_type": null,
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"locale": "en_US"
+		},
+		{
+			"food_name": "cheeseburger macaroni hamburger helper",
+			"tag_name": "hamburger helper",
+			"photo": {
+				"thumb": "https://nix-tag-images.s3.amazonaws.com/5226_thumb.jpg"
+			},
+			"serving_unit": "cup",
+			"tag_id": "5226",
+			"serving_qty": 1,
+			"common_type": 2,
+			"locale": "en_US"
+		}
+	],
+	"branded": [
+		{
+			"food_name": "Cheeseburger Pita (Plain), Add Dairi-O Way To Cheeseburger Pita",
+			"brand_name_item_name": "Dairi-O Cheeseburger Pita (Plain), Add Dairi-O Way To Cheeseburger Pita",
+			"brand_name": "Dairi-O",
+			"nix_brand_id": "611bcafc4f06acd93438fc3f",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "bd9d6817c6d8602b785608a1",
+			"serving_unit": "serving",
+			"nf_calories": 100,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger",
+			"brand_name_item_name": "Speedway Cheeseburger",
+			"brand_name": "Speedway",
+			"nix_brand_id": "62101eae4c99436e6de8b6a0",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "e8b50016245aa2d4353b6ac8",
+			"serving_unit": "Serving",
+			"nf_calories": 430,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Andy's Cheeseburger",
+			"brand_name_item_name": "Hwy55 Andy's Cheeseburger",
+			"brand_name": "Hwy55",
+			"nix_brand_id": "668c05f39aad9d4fd43af17b",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "e8b536165f5d448d44742361",
+			"serving_unit": "Serving",
+			"nf_calories": 760,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Angus Cheeseburger",
+			"brand_name_item_name": "Sam's Angus Cheeseburger",
+			"brand_name": "Sam's",
+			"nix_brand_id": "58b12c06ef3729173e32d724",
+			"photo": {
+				"thumb": "https://nutritionix-api.s3.amazonaws.com/64f468a4cc7b7d000997e89a.jpeg"
+			},
+			"brand_type": 2,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "64f468a3cc7b7d000997e899",
+			"serving_unit": "sandwich",
+			"nf_calories": 510,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Bacon Cheeseburger",
+			"brand_name_item_name": "Burgerville Bacon Cheeseburger",
+			"brand_name": "Burgerville",
+			"nix_brand_id": "513fbc1283aa2dc80c00011b",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "15219505475cae7908fa5180",
+			"serving_unit": "burger",
+			"nf_calories": 600,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "BurgerFi Cheeseburger",
+			"brand_name_item_name": "BurgerFi BurgerFi Cheeseburger",
+			"brand_name": "BurgerFi",
+			"nix_brand_id": "513fbc1283aa2dc80c000316",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "22384417895a8892080043c0",
+			"serving_unit": "Serving",
+			"nf_calories": 800,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "California Cheeseburger",
+			"brand_name_item_name": "Braum's California Cheeseburger",
+			"brand_name": "Braum's",
+			"nix_brand_id": "513fbc1283aa2dc80c0002fc",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 268,
+			"region": 1,
+			"nix_item_id": "bd9d8413a46ac27628723a00",
+			"serving_unit": "grams",
+			"nf_calories": 680,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger Bites",
+			"brand_name_item_name": "Chili's Cheeseburger Bites",
+			"brand_name": "Chili's",
+			"nix_brand_id": "513fbc1283aa2dc80c000022",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "e8b5441636af277c009fc5c8",
+			"serving_unit": "Serving",
+			"nf_calories": 450,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger Quesadilla",
+			"brand_name_item_name": "Wawa Cheeseburger Quesadilla",
+			"brand_name": "Wawa",
+			"nix_brand_id": "513fbc1283aa2dc80c00003b",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "d3ea20816e3da161f78fd747",
+			"serving_unit": "serving",
+			"nf_calories": 690,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger Skillet",
+			"brand_name_item_name": "Voila! Cheeseburger Skillet",
+			"brand_name": "Voila!",
+			"nix_brand_id": "548f0983e1928e5266156694",
+			"photo": {
+				"thumb": "https://nutritionix-api.s3.amazonaws.com/6490377877df0c0006e8963b.jpeg"
+			},
+			"brand_type": 2,
+			"serving_qty": 2,
+			"region": 1,
+			"nix_item_id": "6490377677df0c0006e8963a",
+			"serving_unit": "cups frozen",
+			"nf_calories": 330,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger Sliders",
+			"brand_name_item_name": "Friendly's Cheeseburger Sliders",
+			"brand_name": "Friendly's",
+			"nix_brand_id": "513fbc1283aa2dc80c000149",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "ddee1196081b55f0ff35f37f",
+			"serving_unit": "Serving",
+			"nf_calories": 700,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger, Double",
+			"brand_name_item_name": "Jollibee Cheeseburger, Double",
+			"brand_name": "Jollibee",
+			"nix_brand_id": "62b4d4a209d7c5dc6adedb9c",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 9.300000190734863,
+			"region": 1,
+			"nix_item_id": "e8b516174842dc81ca178943",
+			"serving_unit": "oz",
+			"nf_calories": 640,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Cheeseburger, Single",
+			"brand_name_item_name": "Jollibee Cheeseburger, Single",
+			"brand_name": "Jollibee",
+			"nix_brand_id": "62b4d4a209d7c5dc6adedb9c",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 3.200000047683716,
+			"region": 1,
+			"nix_item_id": "e8b51617b2249652dfbcec97",
+			"serving_unit": "oz",
+			"nf_calories": 410,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Chili Cheeseburger",
+			"brand_name_item_name": "Rally's Chili Cheeseburger",
+			"brand_name": "Rally's",
+			"nix_brand_id": "521b95454a56d006cae29a4f",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "bd9d361640641369e68dde77",
+			"serving_unit": "Serving",
+			"nf_calories": 340,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Classic Cheeseburger",
+			"brand_name_item_name": "Applebee's Classic Cheeseburger",
+			"brand_name": "Applebee's",
+			"nix_brand_id": "513fbc1283aa2dc80c000015",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "15218126467a018dccc535d7",
+			"serving_unit": "Serving",
+			"nf_calories": 1210,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Double Cheeseburger",
+			"brand_name_item_name": "McDonald's Double Cheeseburger",
+			"brand_name": "McDonald's",
+			"nix_brand_id": "513fbc1283aa2dc80c000053",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "513fc9e73fe3ffd4030010c5",
+			"serving_unit": "Serving",
+			"nf_calories": 450,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Impossible Cheeseburger",
+			"brand_name_item_name": "Applebee's Impossible Cheeseburger",
+			"brand_name": "Applebee's",
+			"nix_brand_id": "513fbc1283aa2dc80c000015",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "d3ea84131ad59c44c4859b67",
+			"serving_unit": "Serving",
+			"nf_calories": 1080,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Jr. Cheeseburger",
+			"brand_name_item_name": "Wendy's Jr. Cheeseburger",
+			"brand_name": "Wendy's",
+			"nix_brand_id": "513fbc1283aa2dc80c00000f",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "bd9d521517734834c9e7ce0f",
+			"serving_unit": "Serving",
+			"nf_calories": 290,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Kids Cheeseburger",
+			"brand_name_item_name": "Wendy's Kids Cheeseburger",
+			"brand_name": "Wendy's",
+			"nix_brand_id": "513fbc1283aa2dc80c00000f",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "223800176c94e1f9d1f768bb",
+			"serving_unit": "Serving",
+			"nf_calories": 290,
+			"locale": "en_US"
+		},
+		{
+			"food_name": "Kids, Cheeseburger",
+			"brand_name_item_name": "Moxies Kids, Cheeseburger",
+			"brand_name": "Moxies",
+			"nix_brand_id": "521b95494a56d006cae2a47b",
+			"photo": {
+				"thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
+				"highres": null,
+				"is_user_uploaded": false
+			},
+			"brand_type": 1,
+			"serving_qty": 1,
+			"region": 1,
+			"nix_item_id": "bd9d921570ea6e25b8ec6b36",
+			"serving_unit": "serving",
+			"nf_calories": 750,
+			"locale": "en_US"
+		}
+	]
+}
