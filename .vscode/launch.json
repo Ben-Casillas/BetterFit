@@ -6,7 +6,7 @@
 			"request": "launch",
 			"name": "Launch Express Server",
 			"skipFiles": ["<node_internals>/**"],
-			"program": "${workspaceFolder}/CalorieCalculator/server.js", // or whatever entry file your Express app has
+			"program": "${workspaceFolder}/CalorieCalculator/server.js",
 			"cwd": "${workspaceFolder}",
 			"console": "integratedTerminal",
 			"env": {
