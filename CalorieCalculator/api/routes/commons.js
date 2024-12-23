@@ -14,11 +14,11 @@ const headers ={
 }
 
 //this endpoint will take the common object's name and send it to specific endpoint
-router.get("/:query", async (req, res) =>{
+router.get("/query/:query", async (req, res) => {
     const query = req.params.query;
-    try{
+    try {
         const response = await axios.get(`${allURL}${query}`, headers);
-        if(response.status == 200){
+        if (response.status == 200) {
             commonItems = response.data["common"];
             returnedList = [];
             commonItems.forEach(item => {
@@ -28,10 +28,14 @@ router.get("/:query", async (req, res) =>{
             console.log(returnedList);
             res.status(200).json(returnedList);
         }
-    } catch(error){
+    } catch (error) {
         console.log(error);
-        res.status(500).json({error: "Internal Server Error"})
+        res.status(500).json({ error: "Internal Server Error" })
     }
-})
+});
+
+router.get("/healthCheck", async (req, res) => {
+    res.status(200).json({"Im still standing": "better than I ever did"});
+});
 
 module.exports = router;
