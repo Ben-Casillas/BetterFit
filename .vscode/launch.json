@@ -13,6 +13,20 @@
 				"NODE_ENV": "development"
 			},
 			"outFiles": ["${workspaceFolder}/**/*.js"]
+		},
+		{
+			"type": "node",
+			"request": "launch",
+			"name": "Run Mocha Tests",
+			"skipFiles": ["<node_internals>/**"],
+			"program": "${workspaceFolder}/CalorieCalculator/node_modules/mocha/bin/_mocha",
+			"cwd": "${workspaceFolder}",
+			"console": "integratedTerminal",
+			"args": ["--timeout", "5000", "--recursive", "CalorieCalculator/test/**/*.js"],
+			"env": {
+				"NODE_ENV": "test"
+			},
+			"outFiles": ["${workspaceFolder}/**/*.js"]
 		}
 	]
 }
