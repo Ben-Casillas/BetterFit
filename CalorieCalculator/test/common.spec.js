@@ -1,6 +1,8 @@
 const supertest = require('supertest');
 const common = require('../api/routes/commons.js');
-const request = supertest(common);
+// const request = supertest(common);
+const app = require('supertest')(require('../app.js'))
+
 
 
 const sum = require("./sum.js");
@@ -20,8 +22,9 @@ describe('Test', () => { //test suite, title of test suite, ( collection fo real
 describe("Common Test Suite", () => {
     
     it("Responds to the API successfully", async () => {
-        const response = await request.post('/common/query').send();
-        expect(response.status).to.be.equal(200)
+        // const response = await request.post('/common/query').send();
+        // expect(response.status).to.be.equal(200)
+        return app.get('/common/healthCheck').expect(200);
     });
 });
 

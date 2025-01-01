@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"test": "mocha './testing/*spec.js'",
+		"test": "mocha './test/*spec.js'",
 		"start": "nodemon server.js",
 		"debug": "node --inspect server.js"
 	},
@@ -18,7 +18,8 @@
 		"class-validator": "^0.14.1",
 		"dotenv": "^16.4.5",
 		"express": "^4.19.2",
-		"object-mapper": "^6.2.0"
+		"object-mapper": "^6.2.0",
+		"supertest": "^7.0.0"
 	},
 	"devDependencies": {
 		"@types/express": "^4.17.21",
