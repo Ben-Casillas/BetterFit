@@ -39,3 +39,12 @@ Cross-Browser Testing:
 
 Continuous Integration/Continuous Deployment (CI/CD):
     Jenkins, Travis CI, CircleCI: These CI/CD tools can be integrated with your test automation frameworks to automatically run tests whenever new code is pushed to the repository, ensuring that changes don't introduce regressions.
+
+NEW IDEAS:
+
+Meal Prep-er options
+    Give guidance on how to track the calories of an individual Meal
+    Have them measure the amount of everything, and then ask them how many meals its divided into
+Execsize library
+    have some place to see the library of workouts, video format:
+    https://blog.supersetapp.com/exercise-video-library/
